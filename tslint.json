@@ -1,0 +1,28 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-config-airbnb"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+      "src/forks/**"
+    ]
+  },
+  "rules": {
+    "quotemark": [true, "single"],
+    "indent": [true, "spaces", 2],
+    "import-name": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "max-classes-per-file": false,
+    "array-type": [true, "array"],
+    "no-console": [true, "log"],
+    "member-ordering": false
+  },
+  "jsRules": {
+    "object-literal-sort-keys": false
+  }
+}
